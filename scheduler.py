@@ -46,6 +46,7 @@ class Scheduler:
                 self.SCH_tasks_G[i].pTask() 
 
     def SCH_Delete(self, aTask):
+        
         return
 
     def SCH_GenerateID(self):
