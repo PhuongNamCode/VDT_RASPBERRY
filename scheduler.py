@@ -1,3 +1,4 @@
+
 class Task:
     def __init__(self, _pTask, _Delay, _Period):
         self.pTask = _pTask
@@ -16,7 +17,7 @@ class Scheduler:
     SCH_tasks_G = [] # array
     current_index_task = 0 # blank position in array
 
-    def __int__(self):
+    def __init__(self):
         return
 
     def SCH_Init(self):
