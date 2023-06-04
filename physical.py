@@ -3,6 +3,7 @@ import time
 print("Sensors and Actuators")
 import serial.tools.list_ports
 
+# Port gắn ngoại vi 
 def getPort():
     # ports = serial.tools.list_ports.comports()
     # N = len(ports)
@@ -56,6 +57,7 @@ def readTemperature():
     return serial_read_data(ser)
 
 soil_moisture = [1, 3, 0, 7, 0, 1, 53, 203]
+
 def readMoisture():
     serial_read_data(ser)
     ser.write(soil_moisture)
