@@ -7,6 +7,7 @@ class Task1:
     client = None
     def __init__(self):
        self.client = Mqtt().client
+       print("Init task 1")
    
     def Task1_Run(self):
         # print("Task 1 is activated!!!!")

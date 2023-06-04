@@ -6,6 +6,7 @@ import time
 import sys
 import os
 load_dotenv()
+
 class Mqtt:
     client = None
     def __init__(self):
